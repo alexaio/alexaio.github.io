@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Privacy"
+layout: page
+title: "Privacy Policy"
 ---
 
 ## Random stuff here...
