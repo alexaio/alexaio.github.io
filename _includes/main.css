@@ -202,6 +202,7 @@ a:focus {
   border-bottom: 2px solid #ffffff;
   margin-bottom: 25px;
 }
+
 /*  ################################################################
   SITE WRAPS
 ################################################################# */
@@ -336,6 +337,7 @@ a:focus {
 
 /* Footer */
 #footerwrap {
+  text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
   background: #384452;
@@ -356,9 +358,12 @@ a:focus {
 }
 
 #footerwrap i:hover {
-  color: #00b3fe
+  color: #00b3fe;
 }
 
+#footerwrap .credits{
+  background: #384452;
+}
 /*  ################################################################
   PAGE CONFIGURATIONS
 ################################################################# */
@@ -459,4 +464,70 @@ csmall2 {
 .share i {
   padding-right: 15px;
   font-size: 18px;
+}
+
+/*  ################################################################
+  Legal
+################################################################# */
+
+.heading-a { margin-bottom: /*92*/30px; color: #7e7e7e; text-align: center; }
+  .heading-a h1, .heading-a h2, .heading-a h3 { position: relative; margin-bottom: 38px; padding-bottom: 24px; font-size: 4em; }
+    .heading-a h1 .small, .heading-a h2 .small, .heading-a h3 .small { display: block; margin-bottom: 10px; color: #333; font-weight: 700; font-size: .35em; text-transform: uppercase; }
+    .heading-a h1:before, .heading-a h2:before, .heading-a h3:before { content: ""; display: block; position: absolute; left: 50%; bottom: 0; width: 59px; height: 3px; margin: 0 0 0 -29.5px; background: #333; }
+  .heading-a p { max-width: 750px; margin-top: -10px; margin-left: auto; margin-right: auto; margin-bottom: 50px; font-size: 1.8em; }
+.heading-a.a { text-align: left; }
+  .heading-a.a h1:before, .heading-a.a h2:before, .heading-a.a h3:before { left: 0; margin: 0; }
+  .heading-a.a p { max-width: none; }
+.heading-a.b { }
+  #content.a > * > .heading-a.b:first-child { margin-top: -20px; }
+  .heading-a.b h1, .heading-a.b h2, .heading-a.b h3 { margin-bottom: 17px; padding-bottom: 20px; }
+  .heading-a.b p { margin-bottom: 34px; }
+.heading-a.tw { }
+  .heading-a.tw h1, .heading-a.tw h2, .heading-a.tw h3 { margin-top: -41px; padding-top: 41px; }
+  .heading-a.tw h1:after, .heading-a.tw h2:after, .heading-a.tw h3:after { content: ""; display: block; position: absolute; left: 50%; top: 0; width: 44px; height: 44px; margin: 0 0 0 -22px; background: url(../images/icon-tw-a.png) no-repeat; background-size: 100% 100%; opacity: .8; filter: alpha(opacity = 80); }
+  .lt-ie9 .heading-a.tw h1, .lt-ie9 .heading-a.tw h2, .lt-ie9 .heading-a.tw h3 { padding-top: 53px; }
+    .lt-ie9 .heading-a.tw h1:after, .lt-ie9 .heading-a.tw h2:after, .lt-ie9 .heading-a.tw h3:after { width: 56px; height: 56px; }
+
+.legal {
+    text-align: left;
+    font-size: 1.9em;
+    color: #444;
+}
+
+.legal-small {
+    text-align: left;
+    font-size: 1.0em;
+    color: #444;
+}
+
+.legal ul,li {
+    margin-left: 80px;
+    font-size: 1.9em;
+    color: #444;
+}
+.lh2 {
+    font-size: 3.2em;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.lh3 {
+    font-size: 2.8em;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.tealhover:hover {
+opacity: 1;
+/*background-color:#0083d2 !important;*/
+background-color:#45818e !important;
+}
+
+.bluehover:hover {
+opacity: 1;
+background-color:#0083d2 !important;
+}
+
+.redhover:hover {
+opacity: 1;
+background-color:#d00 !important;
 }
