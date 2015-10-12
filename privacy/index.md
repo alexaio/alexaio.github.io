@@ -1,22 +1,13 @@
 ---
 layout: page
-title: "AlexaIO Privacy Policy"
+title: "Privacy Policy"
+quote: 'This Privacy Policy governs your use of software applications ("Applications") for mobile and voice command devices ("Devices"), created by AlexaIO.'
 ---
-
-<article style="padding-top:200px; padding-bottom: 30px; background-color:#222;">
-  <header class="heading-a">
-    <h3 style="color:#eee;">AlexaIO <span class="strong">Privacy Policy</span></h3>
-    <p style="color:#ddd;">
-      This <b>Privacy Policy</b> governs your use of software applications ("<i>Applications</i>") for mobile and voice command devices ("<i>Devices</i>"), created by AlexaIO.
-    </p>
-  </header>
-</article>
-
-<p style="text-align: right"><span class="strong">Last updated October 11<sup>th</sup> 2015</span></p>
-
 <div class="container mtb">
   <div class="row">
     <div class="col-lg-6">
+      <p class="legal-small" style="text-align: right"><b>Last updated October 11<sup>th</sup> 2015</b></p>
+
       <h2>What information do the Applications obtain and how is it used?</h2>
 
       <h3>User Provided Information</h3>

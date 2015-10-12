@@ -253,6 +253,11 @@ a:focus {
   margin-bottom: 25px;
 }
 
+#portfoliowrap p {
+  color:#fff;
+  margin-bottom: 1px;
+}
+
 .portfolio {
   padding:0 !important;
   margin:0 !important;
@@ -469,7 +474,6 @@ csmall2 {
 /*  ################################################################
   Legal
 ################################################################# */
-
 .heading-a { margin-bottom: /*92*/30px; color: #7e7e7e; text-align: center; }
   .heading-a h1, .heading-a h2, .heading-a h3 { position: relative; margin-bottom: 38px; padding-bottom: 24px; font-size: 4em; }
     .heading-a h1 .small, .heading-a h2 .small, .heading-a h3 .small { display: block; margin-bottom: 10px; color: #333; font-weight: 700; font-size: .35em; text-transform: uppercase; }

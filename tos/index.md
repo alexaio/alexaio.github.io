@@ -1,22 +1,14 @@
 ---
 layout: page
 title: "Terms of Service"
+quote: 'This <b>Terms of Service</b> governs your use of software applications ("<i>Applications</i>") for mobile and voice command devices ("<i>Devices</i>") with the service ("<i>Service</i>") provided by AlexaIO.'
 ---
-
-<article id="" style="padding-top:200px; padding-bottom: 30px; background-color:#222;">
-  <header class="heading-a">
-    <h3 style="color:#eee;">AlexaIO <b>Terms of Service</b></h3>
-    <p style="color:#ddd;">
-This <b>Terms of Service</b> governs your use of software applications ("<i>Applications</i>") for mobile and voice command devices ("<i>Devices</i>") with the service ("<i>Service</i>") provided by AlexaIO.
-    </p>
-  </header>
-
-</article>
-<p style="text-align: right"><b>Last updated October 11<sup>th</sup> 2015</b></p>
 
 <div class="container mtb">
   <div class="row">
     <div class="col-lg-6">
+      <p class="legal-small" style="text-align: right"><b>Last updated October 11<sup>th</sup> 2015</b></p>
+
       <h2>Accepting these Terms</h2>
 
       <p>If you access or use the Service, it means you agree to be bound by all of the terms below. So, before you use the Service, please read all of the terms. If you don't agree to all of the terms below, please do not use the Service. Also, if a term does not make sense to you, please let us know by e-mailing hello@alexaio.com.</p>
@@ -70,7 +62,7 @@ This <b>Terms of Service</b> governs your use of software applications ("<i>Appl
       <p>If you have any questions regarding our <b>Terms of Service</b> while using our Applications, or have questions about our practices, please contact us via email at hello@alexaio.com.</p>
 
       <p class="legal-small" style="text-align: right">
-        <b>Terms of Service</b> document based on <a href="https://github.com/appdotnet/terms-of-service">App.net Terms of Service</a>.
+        <b>Terms of Service</b> document based on <a href="https://github.com/appdotnet/terms-of-service">App.net Terms of Service</a>
       </p>
       <p><br/><a href="/contact" class="btn btn-theme">Contact Us</a></p>
 

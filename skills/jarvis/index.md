@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-quote: 'Apps and Skills for a new platform.'
+title: "Jarvis"
+quote: 'One step closer to living like the Jetsons.'
 ---
 <div class="container mtb">
   <div class="row">
