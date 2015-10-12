@@ -1,0 +1,11 @@
+/_site
+/grunt-tasks/
+/node_modules/
+/.sass-cache
+/sass/.sass-cache
+/serve
+/_drafts
+/build
+components
+bower_components
+/*_orig.*/

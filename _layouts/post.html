@@ -1,0 +1,31 @@
+{% include header.html %}
+
+  {% if page.imgtype %}
+  <main class="main article has-full-background font--{{ page.fonttobe }} img-gradient--{{ page.imggradient }}" role="main">
+  {% else %}
+  <main class="main article" role="main">
+  {% endif %}
+    <h1>{{ page.title }}</h1>
+    <date class="date">{{ page.date | date: "%B %d, %Y" }}</date>
+    {% if page.img %}
+      <figure class="post__teaserimg {{ page.imgtype }}" style="background-image: url('{{ page.img }}');"></figure>
+    {% endif %}
+    {{ content }}
+
+    <hr>
+
+    <aside class="webmentions comments">
+      <script id="webmention-hosted">
+        (function () {
+          var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+          url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+          url = url && url[0] ? url[0].href : false;
+          sn.type = "text/javascript"; sn.async = true;
+          sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+          s.parentNode.insertBefore(sn, s);
+        }());
+      </script>
+    </aside>
+  </main>
+
+{% include footer.html %}
